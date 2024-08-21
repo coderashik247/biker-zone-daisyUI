@@ -11,7 +11,7 @@
     <!-- Google Fonts cdn Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@;0,300;0,400;0,500;0,600;0,700;0,800;0,900;;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- Custom Color Using Link -->
     <script>
@@ -157,10 +157,98 @@
               </div>
         </section>
     </header>
-
     <!-- Main Section -->
-    <main>
+    <main class="md:container mx-auto">
+        <!-- Latest News section -->
+        <section>
+            <h2 class="text-5xl font-semibold text-center mb-10">Latest News</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                <div>
+                    <div class="card bg-base-100  shadow-xl">
+                        <figure>
+                            <img src="./images/others/latest1.png" alt="">
+                        </figure>
+                        <div class="card-body space-y-4">
+                          <h2 class="card-title text-2xl font-medium">Ducati XDIAVEL S-73</h2>
+                          <p class="text-base font-extralight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                          <div class="card-actions">
+                            <button class="btn bg-bike-primary text-white px-8 py-2 ">Read More</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+    
+                <div>
+                    <div class="card bg-base-100 shadow-xl">
+                        <figure>
+                            <img src="./images/others/latest2.png" alt="">
+                        </figure>
+                        <div class="card-body space-y-4">
+                          <h2 class="card-title text-2xl font-medium">Motorcycles & Scooters</h2>
+                          <p class="text-base font-extralight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                          <div class="card-actions">
+                            <button class="btn text-bike-primary bg-white px-8 py-2 border-bike-primary ">Read More</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+    
+                <div>
+                    <div class="card bg-base-100  shadow-xl">
+                        <figure>
+                            <img src="./images/others/latest3.png" alt="">
+                        </figure>
+                        <div class="card-body space-y-4">
+                          <h2 class="card-title text-2xl font-medium">2021 Honda CBR500R</h2>
+                          <p class="text-base font-extralight">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                          <div class="card-actions">
+                            <button class="btn text-bike-primary bg-white px-8 py-2 border-bike-primary ">Read More</button>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- FAQ section -->
+        <section class="my-24">
+            <h2 class="text-5xl font-semibold text-center mb-10">Frequently Asked <span class="text-bike-primary">Questions</span></h2>
+            <div class="hero ">
+                <div class="hero-content flex-col lg:flex-row">
+                    <img src="./images/others/faq.png" alt="">
+                  <div class="space-y-5">
+                    <div class="collapse collapse-arrow border border-blue-200">
+                        <input type="radio" name="my-accordion-2" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">What are the most important things I should know about riding a bike?</div>
+                        <div class="collapse-content">
+                          <p class="text-base font-extralight">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-arrow border border-blue-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a new one?</div>
+                        <div class="collapse-content">
+                          <p class="text-base font-extralight">Locate the tag or sticker on the chin strap or under the padding near your ears. This should indicate the date of manufacture.</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-arrow border border-blue-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+                        <div class="collapse-content">
+                          <p class="text-base font-extralight"> Check and inflate your tires to the recommended level, as they may have deflated over time.</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-arrow border border-blue-200">
+                        <input type="radio" name="my-accordion-2" />
+                        <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
+                        <div class="collapse-content">
+                          <p class="text-base font-extralight">Wear bright and visible clothes, and consider adding reflective stripes to increase your visibility. Avoid blind zones and alert other drivers before entering their blind zones.</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+        </section>
     </main>
 
     <!-- Footer Section -->
